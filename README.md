@@ -42,7 +42,7 @@ These are the steps I have used to export a 3D model from QGIS using the qgis2th
 The .obj file produced by the previous process appears to be lit from the wrong side if uploaded to Sketchfab.  I used MeshLab to fix this - I welcome any tips on how this could be achieved in the Python script.
 
 1.  Open MeshLab, then File > Import Mesh.  Choose the .obj file specified as the out filename when running the python script.
-2.  After a while, the model ahould appear, with a texture, but lit from the underneath.
+2.  After a while, the model should appear, with a texture, but lit from the underneath.
 3.  Click the 'Select faces in a rectangular region' tool and drag a box around the entire mesh.  It should turn red showing all the faces have been selected.
 4.  In the menu, choose Filters > Normals, Curvature and Orientation > Invert Faces Orientation.  In the dialogue that appears. click Apply and then Close.
 5.  Click the 'Select faces in a rectangular region' tool and drag a box away from the mesh to deselect the faces.  Click the tool again to deselect the tool.  The model should now be correctly lit.
