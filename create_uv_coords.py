@@ -90,9 +90,9 @@ def main(fn_in, fn_out):
 if __name__ == '__main__':
 
     if len(sys.argv) != 3:
-        print "Usage:  create_uv_coords.py <in filename> <out filename>"
-        print "Command line example:  python create_uv_coords.py model.obj model_with_uv.obj"
-        print "Note:  if file names or their paths have spaces, wrap them in double quotes."
+        print("Usage:  create_uv_coords.py <in filename> <out filename>")
+        print("Command line example:  python create_uv_coords.py model.obj model_with_uv.obj")
+        print("Note:  if file names or their paths have spaces, wrap them in double quotes.")
         sys.exit()
 
     fn_in = sys.argv[1]
